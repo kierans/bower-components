@@ -1,0 +1,23 @@
+{
+  "name": "bower-components",
+  "version": "0.0.1",
+  "description": "Allows HTML tags for assets to be generated for Bower or CDNs",
+  "main": "bower-components.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kierans/bower-components"
+  },
+  "keywords": [
+    "bower",
+    "cdn"
+  ],
+  "author": "Kieran Simpson <kierans777@gmail.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/kierans/bower-components/issues"
+  },
+  "homepage": "https://github.com/kierans/bower-components"
+}
