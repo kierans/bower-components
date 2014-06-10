@@ -1,0 +1,10 @@
+syntax: glob
+
+*~
+.DS_Store
+*.iml
+.gradle/*
+.idea/*
+
+node_modules/*
+bower_components/*

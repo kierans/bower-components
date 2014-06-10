@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/kierans/bower-components/issues"
   },
-  "homepage": "https://github.com/kierans/bower-components"
+  "homepage": "https://github.com/kierans/bower-components",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "load-grunt-tasks": "~0.4.0",
+    "jshint-stylish": "~0.1.5"
+  },
+  "peerDependencies": {
+    "handlebars": "*"
+  }
 }
