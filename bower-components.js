@@ -81,7 +81,7 @@ module.exports = {
     replaceVersion = function(component, base, useComponentVersion) {
       component = useComponentVersion || component;
 
-      var version = config.bower.dependencies[component].replace(/~/g, "");
+      var version = config.bower.devDependencies[component].replace(/~/g, "");
 
       return base.replace(/\{version\}/, version);
     };
