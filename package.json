@@ -1,6 +1,6 @@
 {
   "name": "bower-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows HTML tags for assets to be generated for Bower or CDNs",
   "main": "bower-components.js",
   "scripts": {
