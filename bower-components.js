@@ -72,9 +72,9 @@ module.exports = {
   configure: function(config) {
     augmentConfig(config);
 
-    var DEV_ENV = "development";
-    var env = process.env.NODE_ENV || DEV_ENV;
-    var isProd = env !== DEV_ENV;
+    var PROD_ENV = "production";
+    var env = process.env.NODE_ENV || "development";
+    var isProd = env === PROD_ENV;
 
     config.bower = JSON.parse(fs.readFileSync(config.bower));
 
